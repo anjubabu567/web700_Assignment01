@@ -1,15 +1,3 @@
-/********************************************************************************
-*  WEB700 – Assignment 1
-* 
-*  I declare that this assignment is my own work in accordance with Seneca's
-*  Academic Integrity Policy:
-* 
-*  https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
-* 
-*  Name: Anju Babu Student ID: __115640245____________ Date: ___16-05-2025___________
-*
-********************************************************************************/
-
 let serverMethods = ["GET","GET","GET","POST","GET","POST"];
 
 let serverRoutes = ["/","/store","/store-admin","/register","/developer","/login"];
@@ -82,5 +70,6 @@ function testRequests() {
   setInterval(randomRequest, 1000);
 }
 testRequests();
+
 
 
